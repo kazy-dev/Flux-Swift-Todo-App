@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A60A1592366DBC400207BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A1582366DBC400207BEC /* AppDelegate.swift */; };
+		5A60A15B2366DBC400207BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A15A2366DBC400207BEC /* SceneDelegate.swift */; };
+		5A60A15D2366DBC400207BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A15C2366DBC400207BEC /* ViewController.swift */; };
+		5A60A1602366DBC400207BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A60A15E2366DBC400207BEC /* Main.storyboard */; };
+		5A60A1622366DBC400207BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A60A1612366DBC400207BEC /* Assets.xcassets */; };
+		5A60A1652366DBC400207BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A60A1632366DBC400207BEC /* LaunchScreen.storyboard */; };
+		5A60A1702366DBC400207BEC /* Flux_Swift_Todo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A16F2366DBC400207BEC /* Flux_Swift_Todo_AppTests.swift */; };
+		5A60A17B2366DBC500207BEC /* Flux_Swift_Todo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A17A2366DBC500207BEC /* Flux_Swift_Todo_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A60A16C2366DBC400207BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A60A14D2366DBC400207BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A60A1542366DBC400207BEC;
+			remoteInfo = "Flux-Swift-Todo-App";
+		};
+		5A60A1772366DBC400207BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A60A14D2366DBC400207BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A60A1542366DBC400207BEC;
+			remoteInfo = "Flux-Swift-Todo-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A60A1552366DBC400207BEC /* Flux-Swift-Todo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flux-Swift-Todo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A60A1582366DBC400207BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A60A15A2366DBC400207BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A60A15C2366DBC400207BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A60A15F2366DBC400207BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A60A1612366DBC400207BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A60A1642366DBC400207BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A60A1662366DBC400207BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A60A16B2366DBC400207BEC /* Flux-Swift-Todo-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flux-Swift-Todo-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A60A16F2366DBC400207BEC /* Flux_Swift_Todo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flux_Swift_Todo_AppTests.swift; sourceTree = "<group>"; };
+		5A60A1712366DBC400207BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A60A1762366DBC400207BEC /* Flux-Swift-Todo-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flux-Swift-Todo-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A60A17A2366DBC500207BEC /* Flux_Swift_Todo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flux_Swift_Todo_AppUITests.swift; sourceTree = "<group>"; };
+		5A60A17C2366DBC500207BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A60A1522366DBC400207BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1682366DBC400207BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1732366DBC400207BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A60A14C2366DBC400207BEC = {
+			isa = PBXGroup;
+			children = (
+				5A60A1572366DBC400207BEC /* Flux-Swift-Todo-App */,
+				5A60A16E2366DBC400207BEC /* Flux-Swift-Todo-AppTests */,
+				5A60A1792366DBC500207BEC /* Flux-Swift-Todo-AppUITests */,
+				5A60A1562366DBC400207BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A60A1562366DBC400207BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A60A1552366DBC400207BEC /* Flux-Swift-Todo-App.app */,
+				5A60A16B2366DBC400207BEC /* Flux-Swift-Todo-AppTests.xctest */,
+				5A60A1762366DBC400207BEC /* Flux-Swift-Todo-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A60A1572366DBC400207BEC /* Flux-Swift-Todo-App */ = {
+			isa = PBXGroup;
+			children = (
+				5A60A1582366DBC400207BEC /* AppDelegate.swift */,
+				5A60A15A2366DBC400207BEC /* SceneDelegate.swift */,
+				5A60A15C2366DBC400207BEC /* ViewController.swift */,
+				5A60A15E2366DBC400207BEC /* Main.storyboard */,
+				5A60A1612366DBC400207BEC /* Assets.xcassets */,
+				5A60A1632366DBC400207BEC /* LaunchScreen.storyboard */,
+				5A60A1662366DBC400207BEC /* Info.plist */,
+			);
+			path = "Flux-Swift-Todo-App";
+			sourceTree = "<group>";
+		};
+		5A60A16E2366DBC400207BEC /* Flux-Swift-Todo-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A60A16F2366DBC400207BEC /* Flux_Swift_Todo_AppTests.swift */,
+				5A60A1712366DBC400207BEC /* Info.plist */,
+			);
+			path = "Flux-Swift-Todo-AppTests";
+			sourceTree = "<group>";
+		};
+		5A60A1792366DBC500207BEC /* Flux-Swift-Todo-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A60A17A2366DBC500207BEC /* Flux_Swift_Todo_AppUITests.swift */,
+				5A60A17C2366DBC500207BEC /* Info.plist */,
+			);
+			path = "Flux-Swift-Todo-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A60A1542366DBC400207BEC /* Flux-Swift-Todo-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60A17F2366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-App" */;
+			buildPhases = (
+				5A60A1512366DBC400207BEC /* Sources */,
+				5A60A1522366DBC400207BEC /* Frameworks */,
+				5A60A1532366DBC400207BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flux-Swift-Todo-App";
+			productName = "Flux-Swift-Todo-App";
+			productReference = 5A60A1552366DBC400207BEC /* Flux-Swift-Todo-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A60A16A2366DBC400207BEC /* Flux-Swift-Todo-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60A1822366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-AppTests" */;
+			buildPhases = (
+				5A60A1672366DBC400207BEC /* Sources */,
+				5A60A1682366DBC400207BEC /* Frameworks */,
+				5A60A1692366DBC400207BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A60A16D2366DBC400207BEC /* PBXTargetDependency */,
+			);
+			name = "Flux-Swift-Todo-AppTests";
+			productName = "Flux-Swift-Todo-AppTests";
+			productReference = 5A60A16B2366DBC400207BEC /* Flux-Swift-Todo-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A60A1752366DBC400207BEC /* Flux-Swift-Todo-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A60A1852366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-AppUITests" */;
+			buildPhases = (
+				5A60A1722366DBC400207BEC /* Sources */,
+				5A60A1732366DBC400207BEC /* Frameworks */,
+				5A60A1742366DBC400207BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A60A1782366DBC400207BEC /* PBXTargetDependency */,
+			);
+			name = "Flux-Swift-Todo-AppUITests";
+			productName = "Flux-Swift-Todo-AppUITests";
+			productReference = 5A60A1762366DBC400207BEC /* Flux-Swift-Todo-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A60A14D2366DBC400207BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = kazy;
+				TargetAttributes = {
+					5A60A1542366DBC400207BEC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					5A60A16A2366DBC400207BEC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A60A1542366DBC400207BEC;
+					};
+					5A60A1752366DBC400207BEC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A60A1542366DBC400207BEC;
+					};
+				};
+			};
+			buildConfigurationList = 5A60A1502366DBC400207BEC /* Build configuration list for PBXProject "Flux-Swift-Todo-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A60A14C2366DBC400207BEC;
+			productRefGroup = 5A60A1562366DBC400207BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A60A1542366DBC400207BEC /* Flux-Swift-Todo-App */,
+				5A60A16A2366DBC400207BEC /* Flux-Swift-Todo-AppTests */,
+				5A60A1752366DBC400207BEC /* Flux-Swift-Todo-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A60A1532366DBC400207BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A60A1652366DBC400207BEC /* LaunchScreen.storyboard in Resources */,
+				5A60A1622366DBC400207BEC /* Assets.xcassets in Resources */,
+				5A60A1602366DBC400207BEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1692366DBC400207BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1742366DBC400207BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A60A1512366DBC400207BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A60A15D2366DBC400207BEC /* ViewController.swift in Sources */,
+				5A60A1592366DBC400207BEC /* AppDelegate.swift in Sources */,
+				5A60A15B2366DBC400207BEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1672366DBC400207BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A60A1702366DBC400207BEC /* Flux_Swift_Todo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A60A1722366DBC400207BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A60A17B2366DBC500207BEC /* Flux_Swift_Todo_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A60A16D2366DBC400207BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A60A1542366DBC400207BEC /* Flux-Swift-Todo-App */;
+			targetProxy = 5A60A16C2366DBC400207BEC /* PBXContainerItemProxy */;
+		};
+		5A60A1782366DBC400207BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A60A1542366DBC400207BEC /* Flux-Swift-Todo-App */;
+			targetProxy = 5A60A1772366DBC400207BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A60A15E2366DBC400207BEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A60A15F2366DBC400207BEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A60A1632366DBC400207BEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A60A1642366DBC400207BEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A60A17D2366DBC500207BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A60A17E2366DBC500207BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A60A1802366DBC500207BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A60A1812366DBC500207BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A60A1832366DBC500207BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flux-Swift-Todo-App.app/Flux-Swift-Todo-App";
+			};
+			name = Debug;
+		};
+		5A60A1842366DBC500207BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flux-Swift-Todo-App.app/Flux-Swift-Todo-App";
+			};
+			name = Release;
+		};
+		5A60A1862366DBC500207BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flux-Swift-Todo-App";
+			};
+			name = Debug;
+		};
+		5A60A1872366DBC500207BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578V78AZC9;
+				INFOPLIST_FILE = "Flux-Swift-Todo-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kazy.dev.Flux-Swift-Todo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flux-Swift-Todo-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A60A1502366DBC400207BEC /* Build configuration list for PBXProject "Flux-Swift-Todo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60A17D2366DBC500207BEC /* Debug */,
+				5A60A17E2366DBC500207BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60A17F2366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60A1802366DBC500207BEC /* Debug */,
+				5A60A1812366DBC500207BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60A1822366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60A1832366DBC500207BEC /* Debug */,
+				5A60A1842366DBC500207BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A60A1852366DBC500207BEC /* Build configuration list for PBXNativeTarget "Flux-Swift-Todo-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A60A1862366DBC500207BEC /* Debug */,
+				5A60A1872366DBC500207BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A60A14D2366DBC400207BEC /* Project object */;
+}
